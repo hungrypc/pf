@@ -1,0 +1,18 @@
+{
+  "extends": "../base-tsconfig.json",
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": false,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "isolatedModules": true,
+    "composite": false,
+    "module": "esnext",
+    "noEmit": true,
+    "strict": false
+  },
+  "include": [
+    "./src/**/*",
+    "./src/**/*.json",
+    "./src/**/*.svg"
+  ]
+}
